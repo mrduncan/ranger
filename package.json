@@ -1,0 +1,24 @@
+{
+  "name": "ranger",
+  "description": "A node.js library for interacting with Campfire",
+  "keywords": [
+    "campfire",
+    "chat"
+  ],
+  "author": "Matt Duncan <matt@mattduncan.org> (http://mattduncan.org)",
+  "contributors": [],
+  "licenses": [
+    ""
+  ],
+  "dependencies": {},
+  "lib": "lib",
+  "main": "./lib/ranger",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">= 0.2.0"
+  },
+  "homepage": "http://github.com/mrduncan/ranger",
+  "directories": {
+    "lib": "lib"
+  }
+}
