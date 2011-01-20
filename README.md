@@ -5,6 +5,10 @@ Ranger is a [node.js](http://nodejs.org/) library for interacting with [Campfire
 
 Usage
 -----
+Install ranger using [npm](http://npmjs.org/).
+
+    npm install ranger
+
 The following example gets an array of rooms which the user is present in and then plays the `vuvuzela` sound and says "vuvuzela time!" in the first one.
 
     var client = require("ranger").createClient("account", "api-key");
