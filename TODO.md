@@ -2,7 +2,7 @@ TODO
 ====
 
 - Unstar messages
-- Streaming messages
+- Pause/stop streaming
 - File uploads
 - Uploaded file listings
 - Search
