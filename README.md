@@ -11,8 +11,6 @@ Install ranger using [npm](http://npmjs.org/).
 
 API
 ---
-
-### Client
 Create a new client with the following:
 
     var client = require("ranger").createClient("account", "api-key");
@@ -22,7 +20,7 @@ The createClient function takes two parameters:
 1. The account name, which is the subdomain of your account url.  If your account url is `37signals.campfire.com` then your account name would be `37signals`.
 2. The api key of the user to connect as.  You can get it from the "My info" link once logged into Campfire.
 
----
+### Client
 
 Get a room by id:
 
