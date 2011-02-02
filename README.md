@@ -9,12 +9,18 @@ Install ranger using [npm](http://npmjs.org/).
 
     npm install ranger
 
-The following example gets an array of rooms which the user is present in and then plays the `vuvuzela` sound and says "vuvuzela time!" in the first one.
+The following example joins room 123456 and plays the vuvuzela sound whenever
+anyone uses the word "soccer".
 
     var client = require("ranger").createClient("account", "api-key");
-    client.presence(function (rooms) {
-      rooms[0].play("vuvuzela");
-      rooms[0].speak("vuvuzela time!");
+    client.room(123456, function (room) {
+      room.join(function () {
+        room.listen(function (message) {
+          if (message.type = "TextMessage" && message.body.match(/soccer/i)) {
+            room.play("vuvuzela");
+          }
+        });
+      });
     });
 
 The createClient function takes two parameters:
