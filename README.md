@@ -21,7 +21,6 @@ The createClient function takes two parameters:
 2. The api key of the user to connect as.  You can get it from the "My info" link once logged into Campfire.
 
 ### Client
-
 Get a room by id:
 
     client.room(12345, function (room) { console.log(room); });
