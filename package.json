@@ -14,7 +14,7 @@
   "dependencies": {},
   "lib": "lib",
   "main": "./lib/ranger",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "engines": {
     "node": "0.4.x"
   },
