@@ -58,6 +58,10 @@ Play a sound:
 
     room.play("trombone");
 
+Show a tweet:
+
+    room.tweet("https://twitter.com/#!/jack/status/20");
+
 Update the room:
 
     room.update({ name: "Lounge", topic: "Anything goes" });
