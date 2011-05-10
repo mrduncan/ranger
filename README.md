@@ -146,7 +146,7 @@ anyone uses the word "soccer".
 Contributing
 ------------
 
-1. [Fork](http://help.github.com/fork-a-repo/ Ranger
+1. [Fork](http://help.github.com/fork-a-repo/) Ranger
 2. Create a topic branch - git checkout -b mybranch
 3. Push to your branch - git push origin mybranch
 4. Create a new pull request
