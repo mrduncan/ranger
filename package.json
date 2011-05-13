@@ -23,7 +23,7 @@
   "main": "./lib/ranger",
   "version": "0.2.2",
   "engines": {
-    "node": "0.4.x"
+    "node": "0.4 || 0.5"
   },
   "homepage": "http://github.com/mrduncan/ranger",
   "directories": {
