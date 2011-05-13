@@ -18,7 +18,6 @@
     "type": "MIT",
     "url": "http://github.com/mrduncan/ranger/raw/master/LICENSE"
   }],
-  "dependencies": {},
   "lib": "lib",
   "main": "./lib/ranger",
   "version": "0.2.2",
