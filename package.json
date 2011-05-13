@@ -7,10 +7,17 @@
     "api"
   ],
   "author": "Matt Duncan <matt@mattduncan.org> (http://mattduncan.org)",
-  "contributors": [],
-  "licenses": [
-    ""
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrduncan/ranger"
+  },
+  "bugs": {
+    "web": "http://github.com/mrduncan/ranger/issues"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://github.com/mrduncan/ranger/raw/master/LICENSE"
+  }],
   "dependencies": {},
   "lib": "lib",
   "main": "./lib/ranger",
