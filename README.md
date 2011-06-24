@@ -136,7 +136,7 @@ anyone uses the word "soccer".
     client.room(123456, function (room) {
       room.join(function () {
         room.listen(function (message) {
-          if (message.type = "TextMessage" && message.body.match(/soccer/i)) {
+          if (message.type === "TextMessage" && message.body.match(/soccer/i)) {
             room.play("vuvuzela");
           }
         });
